@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap");
+:root {
+  --blue: #2a4365;
+  --green: #30A59C;
+  --grey: #A0AEC0;
+  --grey-dark: #5E6C83;
+  --grey-light: #edf2f7;
+  --orange: #F9CA7A;
+  --orange-dark: #F29D45;
+}
+* {
+    /* border: 1px solid pink; */
+}
+body .main-container {
+    width: 99%;
+    margin: 0 auto;
+}
+/* body .section-container {
+    width: 95%;
+    margin: 0 auto;
+} */
+h4,h5,h6 {
+    margin-bottom: 0;
+}
+/* SECTION WEEK OF */
+.week-of {
+    position: relative;
+    background-color: var(--grey);
+}
+.week-theme {
+    background-color: var(--grey-dark);
+    display: inline-block;
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+}
+.chevron-top {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 3px;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: var(--blue);
+}
+
+/* SECTION DAYS */
+.day {
+    background-color: var(--blue);
+    color: #fff;
+    padding: 1px 0;
+}
+.day-theme {
+    background-color: var(--orange);
+}
+.day-theme h4{
+    font-size: 1.3rem;
+}
+.day h5{
+    font-size: 1.1rem;
+}
+.day-theme h6{
+    background-color: var(--orange-dark);
+    padding: 2px;
+}
+
+.green-header {
+    background-color: var(--green);
+    height: 100%;
+}
+/* CUSTOM MEDIA QUERIES */
+@media screen and (max-width: 768px){
+
+}
